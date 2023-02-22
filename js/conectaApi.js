@@ -25,9 +25,15 @@ async function enviaVideos(titulo, descricao, url, imagem){
     return conexaoConvertida
 }
 
+//Função para buscar vídeo por termos pesquisados
+
+async function buscaVideos(termoDePesquisa){
+    const conexao = await fetch (`http://localhost:3000/videos?q=${termoDePesquisa}`)
+}
 
 //Objeto exportador de funções
 export const conectaApi = {
     listaVideos,
-    enviaVideos
+    enviaVideos,
+    buscaVideos
 }
