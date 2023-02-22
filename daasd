@@ -1,0 +1,23 @@
+[33mcommit bc94d06f3c30b95c1d60ff1d00af996789d35aa8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Henrique Velardo <Henrique>
+Date:   Fri Feb 17 08:13:04 2023 -0300
+
+    Instalando json server, criando função de conexão com API, criando função para mostrar videos dinamicamente via js
+
+[33mcommit dfe373f499df5de3dc9dcedd775ed6c2c4a3e591[m
+Author: Henrique Velardo <henriquevelardo@hotmail.com>
+Date:   Thu Feb 16 19:23:57 2023 -0300
+
+    subindo arquivos
+
+[33mcommit 90743afd32a6d5ebf979cda4c58127463dca56c4[m
+Author: Henrique Velardo <henriquevelardo@hotmail.com>
+Date:   Thu Feb 16 19:18:52 2023 -0300
+
+    Update README.md
+
+[33mcommit e58f93999b7105247f4789d9fd52708ff5180810[m
+Author: Henrique Velardo <henriquevelardo@hotmail.com>
+Date:   Thu Feb 16 19:15:41 2023 -0300
+
+    Initial commit
