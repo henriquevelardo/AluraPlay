@@ -6,7 +6,8 @@ async function listaVideos() {
     return conexaoConvertida
 }
 
-async function criaVideos(titulo, descricao, url, imagem){
+// Função para cadastrar videos no db.json
+async function enviaVideos(titulo, descricao, url, imagem){
     const conexao = await fetch ("http://localhost:3000/videos", {
         method: "POST", 
         headers: {
@@ -21,7 +22,6 @@ async function criaVideos(titulo, descricao, url, imagem){
     })
 
     const conexaoConvertida = await conexao.json()
-    console.log(conexaoConvertida, "show")
     return conexaoConvertida
 }
 
@@ -29,5 +29,5 @@ async function criaVideos(titulo, descricao, url, imagem){
 //Objeto exportador de funções
 export const conectaApi = {
     listaVideos,
-    criaVideos
+    enviaVideos
 }
