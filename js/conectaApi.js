@@ -29,6 +29,9 @@ async function enviaVideos(titulo, descricao, url, imagem){
 
 async function buscaVideos(termoDePesquisa){
     const conexao = await fetch (`http://localhost:3000/videos?q=${termoDePesquisa}`)
+    const conexaoConvertida = await conexao.json()
+
+    return conexaoConvertida
 }
 
 //Objeto exportador de funções
