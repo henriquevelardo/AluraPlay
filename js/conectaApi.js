@@ -21,6 +21,10 @@ async function enviaVideos(titulo, descricao, url, imagem){
         })
     })
 
+    if(!conexao.ok){
+        throw new Error ("Não foi possível enviar o vídeo no momento!")
+    }
+
     const conexaoConvertida = await conexao.json()
     return conexaoConvertida
 }
